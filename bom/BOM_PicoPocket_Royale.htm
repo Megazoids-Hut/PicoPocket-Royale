@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PicoPocket Royale BOM</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+        .component-table tr:hover { background-color: #f8fafc; }
+        .section-header { background: linear-gradient(90deg, #1e40af, #3b82f6); }
+        a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body class="bg-slate-50 py-8">
+    <div class="max-w-4xl mx-auto px-4">
+        <!-- Header -->
+        <div class="bg-white rounded-2xl shadow-lg overflow-hidden mb-8">
+            <div class="section-header px-8 py-10 text-white">
+                <div class="flex items-center gap-4">
+                    <div class="w-12 h-12 bg-white/20 rounded-xl flex items-center justify-center text-3xl">📋</div>
+                    <div>
+                        <h1 class="text-4xl font-bold tracking-tight">PicoPocket Royale BOM</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Capacitors -->
+        <div class="mb-10">
+            <div class="flex items-center gap-3 mb-4">
+                <div class="w-8 h-8 bg-yellow-100 text-yellow-600 rounded-lg flex items-center justify-center text-xl">⚡</div>
+                <h2 class="text-2xl font-semibold text-slate-800">Capacitors</h2>
+            </div>
+            <div class="bg-white rounded-xl shadow overflow-hidden">
+                <table class="w-full component-table">
+                    <thead>
+                        <tr class="bg-slate-100">
+                            <th class="px-6 py-4 text-left text-xs font-medium text-slate-500 uppercase tracking-wider w-16">Qty</th>
+                            <th class="px-6 py-4 text-left text-xs font-medium text-slate-500 uppercase tracking-wider">Value</th>
+                            <th class="px-6 py-4 text-left text-xs font-medium text-slate-500 uppercase tracking-wider">Package</th>
+                            <th class="px-6 py-4 text-left text-xs font-medium text-slate-500 uppercase tracking-wider">Designators</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-slate-200 text-slate-700">
+                        <tr><td class="px-6 py-4 font-medium">4</td><td class="px-6 py-4">100 nF</td><td class="px-6 py-4">C0805</td><td class="px-6 py-4 font-mono text-sm">C1, C2, C3, C9</td></tr>
+                        <tr><td class="px-6 py-4 font-medium">1</td><td class="px-6 py-4">10 µF</td><td class="px-6 py-4">C0805</td><td class="px-6 py-4 font-mono text-sm">C4</td></tr>
+                        <tr><td class="px-6 py-4 font-medium">2</td><td class="px-6 py-4">220 pF</td><td class="px-6 py-4">C0805</td><td class="px-6 py-4 font-mono text-sm">C5, C6</td></tr>
+                        <tr><td class="px-6 py-4 font-medium">2</td><td class="px-6 py-4">1 µF</td><td class="px-6 py-4">C0805</td><td class="px-6 py-4 font-mono text-sm">C7, C8</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- Resistors -->
+        <div class="mb-10">
+            <div class="flex items-center gap-3 mb-4">
+                <div class="w-8 h-8 bg-red-100 text-red-600 rounded-lg flex items-center justify-center text-xl">🔴</div>
+                <h2 class="text-2xl font-semibold text-slate-800">Resistors</h2>
+            </div>
+            <div class="bg-white rounded-xl shadow overflow-hidden">
+                <table class="w-full component-table">
+                    <thead>
+                        <tr class="bg-slate-100">
+                            <th class="px-6 py-4 text-left text-xs font-medium text-slate-500 uppercase tracking-wider w-16">Qty</th>
+                            <th class="px-6 py-4 text-left text-xs font-medium text-slate-500 uppercase tracking-wider">Value</th>
+                            <th class="px-6 py-4 text-left text-xs font-medium text-slate-500 uppercase tracking-wider">Package</th>
+                            <th class="px-6 py-4 text-left text-xs font-medium text-slate-500 uppercase tracking-wider">Designators</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-slate-200 text-slate-700">
+                        <tr><td class="px-6 py-4 font-medium">1</td><td class="px-6 py-4">500 mΩ</td><td class="px-6 py-4">R0805</td><td class="px-6 py-4 font-mono text-sm">R1</td></tr>
+                        <tr><td class="px-6 py-4 font-medium">1</td><td class="px-6 py-4">33 kΩ</td><td class="px-6 py-4">R0805</td><td class="px-6 py-4 font-mono text-sm">R2</td></tr>
+                        <tr><td class="px-6 py-4 font-medium">1</td><td class="px-6 py-4">100 kΩ</td><td class="px-6 py-4">R0805</td><td class="px-6 py-4 font-mono text-sm">R3</td></tr>
+                        <tr><td class="px-6 py-4 font-medium">3</td><td class="px-6 py-4">5.1 kΩ</td><td class="px-6 py-4">R0805</td><td class="px-6 py-4 font-mono text-sm">R4, R5, R6</td></tr>
+                        <tr><td class="px-6 py-4 font-medium">1</td><td class="px-6 py-4">10 kΩ</td><td class="px-6 py-4">R0805</td><td class="px-6 py-4 font-mono text-sm">R7</td></tr>
+                        <tr><td class="px-6 py-4 font-medium">2</td><td class="px-6 py-4">100 Ω</td><td class="px-6 py-4">R0805</td><td class="px-6 py-4 font-mono text-sm">R8, R9</td></tr>
+                        <tr><td class="px-6 py-4 font-medium">1</td><td class="px-6 py-4">470 Ω</td><td class="px-6 py-4">R0805</td><td class="px-6 py-4 font-mono text-sm">R10</td></tr>
+                        <tr><td class="px-6 py-4 font-medium">2</td><td class="px-6 py-4">1 kΩ</td><td class="px-6 py-4">R0805</td><td class="px-6 py-4 font-mono text-sm">R11, R14</td></tr>
+                        <tr><td class="px-6 py-4 font-medium">1</td><td class="px-6 py-4">3.9 Ω</td><td class="px-6 py-4">R0805</td><td class="px-6 py-4 font-mono text-sm">R12</td></tr>
+                        <tr><td class="px-6 py-4 font-medium">1</td><td class="px-6 py-4">10 kΩ</td><td class="px-6 py-4">R0805</td><td class="px-6 py-4 font-mono text-sm">R13</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- Other Components -->
+        <div>
+            <div class="flex items-center gap-3 mb-4">
+                <div class="w-8 h-8 bg-emerald-100 text-emerald-600 rounded-lg flex items-center justify-center text-xl">🔌</div>
+                <h2 class="text-2xl font-semibold text-slate-800">Other Components</h2>
+            </div>
+            
+            <div class="bg-white rounded-xl shadow divide-y divide-slate-200">
+                <!-- Existing + New Items -->
+                <div class="p-6 flex gap-6">
+                    <div class="flex-1">
+                        <div><span class="inline-block px-3 py-1 text-xs font-medium bg-purple-100 text-purple-700 rounded-full">1×</span><span class="ml-3 font-semibold">Headphone Jack 3.5mm PJ-324M</span></div>
+                        <div class="mt-2 text-sm text-slate-600">
+                            LCSC: <a href="https://www.lcsc.com/product-detail/Audio-Connectors_PJ-324M_C22355739.html" target="_blank" class="text-blue-600 hover:underline">C22355739</a><br>
+                            Alt: <a href="https://www.aliexpress.com/item/4001057731020.html" target="_blank" class="text-blue-600 hover:underline">AliExpress</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="p-6 flex gap-6">
+                    <div class="flex-1">
+                        <div><span class="inline-block px-3 py-1 text-xs font-medium bg-purple-100 text-purple-700 rounded-full">1×</span><span class="ml-3 font-semibold">Schottky Diode</span></div>
+                        <div class="mt-2 text-sm text-slate-600">
+                            LCSC: <a href="https://www.lcsc.com/product-detail/Schottky-Barrier-Diodes-SBD_C727049.html" target="_blank" class="text-blue-600 hover:underline">C727049</a><br>
+                            Alt: <a href="https://www.aliexpress.com/item/1005001835967051.html" target="_blank" class="text-blue-600 hover:underline">AliExpress</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="p-6 flex gap-6">
+                    <div class="flex-1">
+                        <div><span class="inline-block px-3 py-1 text-xs font-medium bg-purple-100 text-purple-700 rounded-full">1×</span><span class="ml-3 font-semibold">2.8" LCD Display ST7789V Type A</span></div>
+                        <div class="mt-2 text-sm text-slate-600">
+                            <a href="https://www.aliexpress.com/item/1005007691230304.html" target="_blank" class="text-blue-600 hover:underline">AliExpress Link</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="p-6 flex gap-6">
+                    <div class="flex-1">
+                        <div><span class="inline-block px-3 py-1 text-xs font-medium bg-purple-100 text-purple-700 rounded-full">4×</span><span class="ml-3 font-semibold">0805 LEDs</span></div>
+                        <div class="mt-2 text-sm text-slate-600">
+                            <a href="https://www.aliexpress.com/item/1005008129180386.html" target="_blank" class="text-blue-600 hover:underline">AliExpress Link</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="p-6 flex gap-6">
+                    <div class="flex-1">
+                        <div><span class="inline-block px-3 py-1 text-xs font-medium bg-purple-100 text-purple-700 rounded-full">1×</span><span class="ml-3 font-semibold">NPN Transistor 25V 500mA SOT-23</span></div>
+                        <div class="mt-2 text-sm text-slate-600">
+                            LCSC: <a href="https://www.lcsc.com/product-detail/Transistors-NPN_C181158.html" target="_blank" class="text-blue-600 hover:underline">C181158</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="p-6 flex gap-6">
+                    <div class="flex-1">
+                        <div><span class="inline-block px-3 py-1 text-xs font-medium bg-purple-100 text-purple-700 rounded-full">1×</span><span class="ml-3 font-semibold">Power Switch</span></div>
+                        <div class="mt-2 text-sm text-slate-600">
+                            LCSC: <a href="https://www.lcsc.com/product-detail/Toggle-Switches_C5274466.html" target="_blank" class="text-blue-600 hover:underline">C5274466</a><br>
+                            Alt: <a href="https://www.aliexpress.com/item/1005004508647910.html" target="_blank" class="text-blue-600 hover:underline">AliExpress</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="p-6 flex gap-6">
+                    <div class="flex-1">
+                        <div><span class="inline-block px-3 py-1 text-xs font-medium bg-purple-100 text-purple-700 rounded-full">9×</span><span class="ml-3 font-semibold">Tactile Switch 160gf SMD</span></div>
+                        <div class="mt-2 text-sm text-slate-600">
+                            LCSC: <a href="https://www.lcsc.com/product-detail/Tactile-Switches_C5340185.html" target="_blank" class="text-blue-600 hover:underline">C5340185</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- New Items -->
+                <div class="p-6 flex gap-6">
+                    <div class="flex-1">
+                        <div><span class="inline-block px-3 py-1 text-xs font-medium bg-purple-100 text-purple-700 rounded-full">1×</span><span class="ml-3 font-semibold">Micro SD Card Slot (TF Card)</span></div>
+                        <div class="mt-2 text-sm text-slate-600">
+                            LCSC: <a href="https://www.lcsc.com/product-detail/Card-Edge-Connectors_C5155563.html" target="_blank" class="text-blue-600 hover:underline">C5155563</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="p-6 flex gap-6">
+                    <div class="flex-1">
+                        <div><span class="inline-block px-3 py-1 text-xs font-medium bg-purple-100 text-purple-700 rounded-full">1×</span><span class="ml-3 font-semibold">Raspberry Pi Pico (RP2350 / RP2040)</span></div>
+                        <div class="mt-2 text-sm text-slate-600">
+                            Waveshare RP2350 Plus recommended
+                        </div>
+                    </div>
+                </div>
+
+                <div class="p-6 flex gap-6">
+                    <div class="flex-1">
+                        <div><span class="inline-block px-3 py-1 text-xs font-medium bg-purple-100 text-purple-700 rounded-full">1×</span><span class="ml-3 font-semibold">TP4056 Battery Charger IC</span></div>
+                        <div class="mt-2 text-sm text-slate-600">
+                            LCSC: <a href="https://www.lcsc.com/product-detail/Battery-Management-ICs_C725790.html" target="_blank" class="text-blue-600 hover:underline">C725790</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="p-6 flex gap-6">
+                    <div class="flex-1">
+                        <div><span class="inline-block px-3 py-1 text-xs font-medium bg-purple-100 text-purple-700 rounded-full">1×</span><span class="ml-3 font-semibold">Battery Connector 1.25mm 2POS R/A</span></div>
+                        <div class="mt-2 text-sm text-slate-600">
+                            LCSC: <a href="https://www.lcsc.com/product-detail/Connectors-Headers-Wire-Housings_C177225.html" target="_blank" class="text-blue-600 hover:underline">C177225</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="p-6 flex gap-6">
+                    <div class="flex-1">
+                        <div><span class="inline-block px-3 py-1 text-xs font-medium bg-purple-100 text-purple-700 rounded-full">1×</span><span class="ml-3 font-semibold">PAM8302AADCR Audio Amplifier</span></div>
+                        <div class="mt-2 text-sm text-slate-600">
+                            LCSC: <a href="https://www.lcsc.com/product-detail/Audio-Amplifiers_PAM8302AADCR_C112137.html" target="_blank" class="text-blue-600 hover:underline">C112137</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="p-6 flex gap-6">
+                    <div class="flex-1">
+                        <div><span class="inline-block px-3 py-1 text-xs font-medium bg-purple-100 text-purple-700 rounded-full">1×</span><span class="ml-3 font-semibold">602550 Polymer Lithium Battery</span></div>
+                        <div class="mt-2 text-sm text-slate-600">
+                            <a href="https://www.aliexpress.com/item/1005006898814536.html" target="_blank" class="text-blue-600 hover:underline">AliExpress Link</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="p-6 flex gap-6">
+                    <div class="flex-1">
+                        <div><span class="inline-block px-3 py-1 text-xs font-medium bg-purple-100 text-purple-700 rounded-full">1×</span><span class="ml-3 font-semibold">Ghxamp Mini Speaker 8Ω 1W</span></div>
+                        <div class="mt-2 text-sm text-slate-600">
+                            <a href="https://www.aliexpress.com/item/33035261832.html" target="_blank" class="text-blue-600 hover:underline">AliExpress Link</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="p-6 flex gap-6">
+                    <div class="flex-1">
+                        <div><span class="inline-block px-3 py-1 text-xs font-medium bg-purple-100 text-purple-700 rounded-full">1×</span><span class="ml-3 font-semibold">Thumb Wheel 10k</span></div>
+                        <div class="mt-2 text-sm text-slate-600">
+                            <a href="https://www.aliexpress.com/item/1005009637434299.html" target="_blank" class="text-blue-600 hover:underline">AliExpress Link</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="p-6 flex gap-6">
+                    <div class="flex-1">
+                        <div><span class="inline-block px-3 py-1 text-xs font-medium bg-purple-100 text-purple-700 rounded-full">4×</span><span class="ml-3 font-semibold">M2 x 16mm Flat Head Hex Socket Screws</span></div>
+                        <div class="mt-2 text-sm text-slate-600">
+                            <a href="https://www.amazon.co.uk/FandWay-Countersunk-Machine-Washers-Assortment/dp/B0B7JLDV6V/" target="_blank" class="text-blue-600 hover:underline">Amazon Link</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="p-6 flex gap-6">
+                    <div class="flex-1">
+                        <div><span class="inline-block px-3 py-1 text-xs font-medium bg-purple-100 text-purple-700 rounded-full">1×</span><span class="ml-3 font-semibold">Clear Grass Trimmer Line (Light Pipes)</span></div>
+                        <div class="mt-2 text-sm text-slate-600">
+                            <a href="https://www.amazon.co.uk/Oregon-69-482-CL-Round-Strimmer-Trimmers/dp/B07SQKP6B3/" target="_blank" class="text-blue-600 hover:underline">Amazon Link</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="p-6 flex gap-6">
+                    <div class="flex-1">
+                        <div><span class="inline-block px-3 py-1 text-xs font-medium bg-purple-100 text-purple-700 rounded-full">1×</span><span class="ml-3 font-semibold">Micro SD Card 32GB</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mt-12 text-center text-slate-400 text-sm">
+            <p>Total Components: <span class="font-medium text-slate-600">~46 pieces</span></p>
+            <p class="mt-1">Last updated: July 02, 2026</p>
+        </div>
+    </div>
+</body>
+</html>

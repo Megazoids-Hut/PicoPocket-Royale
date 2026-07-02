@@ -1,0 +1,12 @@
+These are inverted colour version of the current PicoLibSDK software for PicoPad RP2040 (!PicoPad10) and PicoPad RP2350 (PicoPad20) needed for the PicoPocket Royale to function.
+
+I know nothing about coding. Ai made all the changes. 
+
+Adapted from PicoLibSDK by Miroslav Nemecek
+
+Panda38@seznam.cz
+hardyplotter2@gmail.com
+https://github.com/Panda381/PicoLibSDK
+https://www.breatharian.eu/hw/picolibsdk/index_en.html
+
+
