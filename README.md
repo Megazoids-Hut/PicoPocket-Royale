@@ -15,7 +15,7 @@ ________________________________________________________________
   
 # Supplies
 
-See the [BOM file] (https://github.com/Megazoids-Hut/PicoPocket-Royale/tree/main/bom)
+See the [BOM file](https://github.com/Megazoids-Hut/PicoPocket-Royale/tree/main/bom)
 
 Other bits needed :  
 Kapton tape?, hot glue, super glue, sand paper?
@@ -34,4 +34,4 @@ ________________________________________________________________
   
 # Other suggestions
 
-A great DIY RP2350 handheld is the [PicoHeld 2] (https://github.com/fcipaq/picoheld2) by Phlash Thunderstorm
+A great DIY RP2350 handheld is the [PicoHeld 2](https://github.com/fcipaq/picoheld2) by Phlash Thunderstorm
