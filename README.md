@@ -1,5 +1,7 @@
 # PicoPocket Royale
 
+![PicoPocket Royale](https://github.com/Megazoids-Hut/PicoPocket-Royale/blob/main/images/picopocket_royal1.png)
+
 Another Pi Pico (RP2350 or RP2040) DIY handheld based on the open source PicoPad schematic. 
 
 This DIY handheld is similar to my previous PicoPocket handheld but with a bigger form factor, larger 2.8 inch screen, PAM8302A amp, 3.5mm headphone jack and volume wheel. 
