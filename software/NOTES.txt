@@ -1,6 +1,9 @@
-These are inverted colour version of the current PicoLibSDK software for PicoPad RP2040 (!PicoPad10) and PicoPad RP2350 (PicoPad20) needed for the PicoPocket Royale to function.
+PicoLibSDK
+----------
 
-I know nothing about coding. Ai made all the changes. 
+These are inverted colour version of the PicoLibSDK software (date: 02/07/2026) for PicoPad RP2040 (!PicoPad10) and PicoPad RP2350 (!PicoPad20) needed for the PicoPocket Royale to function.
+
+*I know nothing about coding. Ai made all the changes. 
 
 Adapted from PicoLibSDK by Miroslav Nemecek
 
@@ -8,5 +11,18 @@ Panda38@seznam.cz
 hardyplotter2@gmail.com
 https://github.com/Panda381/PicoLibSDK
 https://www.breatharian.eu/hw/picolibsdk/index_en.html
+======================================================
+
+Doom 
+----
+
+The !PicoPad20 directory contains DOOM/DOOM.UF2
+
+This is an inverted colour version based on https://github.com/svermigo/rp2040-doom
+It differs from svermigo's DOOM.UF2 in exactly 6 bytes — the two inversion instructions and the 4-byte CRC field.
+
+https://x.com/svermigo
+https://github.com/svermigo/rp2040-doom
+======================================================
 
 

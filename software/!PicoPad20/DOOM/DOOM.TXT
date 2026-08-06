@@ -1,0 +1,10 @@
+^YDOOM^0
+
+rp2040-doom on PicoPad
+DOOM1 shareware
+
+^WD-pad^0 ....... move / turn
+^WA^0 ........... fire
+^WB^0 ........... use / open + run
+^WX^0 ........... next weapon
+^WY^0 ........... menu
